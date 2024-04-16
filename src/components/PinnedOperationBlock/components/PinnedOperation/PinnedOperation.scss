@@ -1,0 +1,15 @@
+.operation-container {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.operation-info {
+  margin-bottom: 10px;
+}
+
+.operation-info:last-child {
+  margin-bottom: 0;
+}

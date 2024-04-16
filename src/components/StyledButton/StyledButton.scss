@@ -1,0 +1,19 @@
+.btn {
+  height: 3rem;
+  padding: 0.25rem 1rem;
+  border: none;
+  background-color: #8b08b3;
+  box-shadow: 0 0 5px #8b08b3;
+  color: white;
+  font-size: 2rem;
+  transition: all 0.3s ease;
+  border-radius: 2rem;
+
+  &:hover {
+    box-shadow: 0 0 10px #8b08b3, 0 0 20px #8b08b3, 0 0 20px #8b08b3 inset;
+  }
+
+  &:disabled {
+    cursor: default;
+  }
+}
